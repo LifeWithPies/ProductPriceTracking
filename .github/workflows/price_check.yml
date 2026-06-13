@@ -1,0 +1,57 @@
+name: Price Check
+
+on:
+  schedule:
+    # Runs at 01:00 and 13:00 UTC  (6:30 AM and 6:30 PM IST)
+    - cron: '0 1,13 * * *'
+  workflow_dispatch:   # also lets you click "Run workflow" in the GitHub UI
+
+permissions:
+  contents: write     # needed to commit updated tracker_state.json + index.html
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+
+      - name: Run price check
+        run: python price_check_gh.py
+        env:
+          RAINFOREST_API_KEY: ${{ secrets.RAINFOREST_API_KEY }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL }}
+          SMTP_HOST:          smtp.gmail.com
+          SMTP_PORT:          465
+          SMTP_USER:          ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:      ${{ secrets.SMTP_PASSWORD }}
+
+      - name: Rebuild dashboard
+        run: python gen_dashboard4.py
+
+      - name: Copy dashboard → index.html (GitHub Pages root)
+        run: cp dashboard.html index.html
+
+      - name: Commit changes
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add tracker_state.json index.html dashboard.html
+          # only commit if something actually changed
+          git diff --staged --quiet || git commit -m "chore: price check $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

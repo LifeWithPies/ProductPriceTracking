@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(pytest:*)",
+      "Bash(ruff:*)",
+      "Bash(black:*)",
+      "Bash(isort:*)",
+      "Bash(prettier:*)",
+      "Bash(eslint:*)",
+      "Bash(jest:*)",
+      "Bash(php:*)",
+      "Bash(composer:*)",
+      "Bash(az:*)",
+      "Bash(aws:*)",
+      "Bash(docker:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl * | bash)",
+      "Bash(wget * | bash)"
+    ]
+  },
+  "env": {
+    "CLAUDE_PROJECT": "ProductPriceTracking",
+    "CLAUDE_STYLE": "brief-context"
+  }
+}

@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temp image extraction files
+_img_*.b64
+
+# SQLite (local only; tracker_state.json is the cloud source of truth)
+*.db
+*.db-journal
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,151 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "url": "https://www.tecovas.com/products/the-monterrey?color=granite-suede",
+      "retailer_type": "generic",
+      "title": "The Monterrey Men's Loafer - Granite Suede",
+      "image_url": null,
+      "currency": "USD",
+      "added_at": "2026-06-07T05:28:00Z",
+      "active": true,
+      "variant": {
+        "size": "7.5",
+        "width": "D-Average",
+        "color": "granite-suede"
+      }
+    },
+    {
+      "id": 2,
+      "url": "https://www.quince.com/men/mens-italian-leather-mule-slip-on?color=sand&gender=men&size=8",
+      "retailer_type": "generic",
+      "title": "Italian Leather Mule Slip-On in Sand",
+      "image_url": null,
+      "currency": "USD",
+      "added_at": "2026-06-07T06:00:00Z",
+      "active": true,
+      "variant": {
+        "size": "8",
+        "color": "sand"
+      }
+    },
+    {
+      "id": 4,
+      "url": "https://www.quince.com/men/mens-italian-leather-rfid-card-holder?color=black&gender=men",
+      "retailer_type": "generic",
+      "title": "Italian Leather RFID Card Holder in Black",
+      "image_url": null,
+      "currency": "USD",
+      "added_at": "2026-06-07T06:20:00Z",
+      "active": true,
+      "variant": {
+        "color": "black",
+        "note": "No size options — single variant"
+      }
+    },
+    {
+      "id": 3,
+      "url": "https://www.quince.com/men/mens-mesh-stitch-organic-cotton-button-through-polo?color=bayberry-olive&gender=men",
+      "retailer_type": "generic",
+      "title": "100% Organic Cotton Mesh-Stitch Button-Up Sweater Polo in Bayberry Olive",
+      "image_url": null,
+      "currency": "USD",
+      "added_at": "2026-06-07T06:10:00Z",
+      "active": true,
+      "variant": {
+        "sizes_to_watch": ["S", "M"],
+        "color": "bayberry-olive",
+        "note": "Track price drops + alert if both S and M go out of stock"
+      }
+    }
+  ],
+  "price_history": [
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-07T05:28:00Z",
+      "note": "Initial scrape — size 7.5 D-Average: Out of Stock. Listed price: $185."
+    },
+    {
+      "product_id": 2,
+      "price": 95.00,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:00:00Z",
+      "note": "Initial scrape — size 8 Sand: In Stock at $95.00 (54% off $190 retail)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.00,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:20:00Z",
+      "note": "Initial scrape — In Stock at $58.00 (55% off $129 retail). No size variants."
+    },
+    {
+      "product_id": 3,
+      "price": 44.90,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:10:00Z",
+      "note": "Initial scrape — S and M both in stock at $44.90 (54% off $98 retail).",
+      "sizes_in_stock": ["XS", "S", "M", "L", "XL"]
+    },
+    {
+      "product_id": 4,
+      "price": 58.00,
+      "in_stock": true,
+      "scraped_at": "2026-06-10T14:22:06Z",
+      "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock)."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-10T14:22:33Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS)."
+    },
+    {
+      "product_id": 3,
+      "price": 44.90,
+      "in_stock": true,
+      "scraped_at": "2026-06-10T14:23:23Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock).",
+      "sizes_in_stock": ["XS", "S", "M", "L", "XL"]
+    },
+    {
+      "product_id": 2,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-10T14:23:52Z",
+      "note": "Scheduled check — Size 8 Sand: Out of Stock. 'Add to Bag' replaced by 'Join Waitlist' + 'Sold out' badge. Was in stock at $95.00 on previous check. OUT OF STOCK transition."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-11T14:25:00Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock (aria-label 'Select the D-Average option (Out of stock)'). Listed price: $185. EE-Wide available. No change from previous (still OOS)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.00,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:11:32Z",
+      "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock). No size variants."
+    },
+    {
+      "product_id": 2,
+      "price": 95.00,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:12:15Z",
+      "note": "Scheduled check — Size 8 Sand: BACK IN STOCK at $95.00 (50% off $190 retail). 'Add to Bag' enabled, size 8 selectable, no sold-out badge. Previous check (2026-06-10) was Out of Stock. BACK IN STOCK transition."
+    },
+    {
+      "product_id": 3,
+      "price": 44.90,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:13:39Z",
+      "note": "Scheduled check — XS/S/M/L/XL all in stock at $44.90 (54% off $98 retail). S and M both in stock. No change vs previous ($44.90, in stock).",
+      "sizes_in_stock": ["XS", "S", "M", "L", "XL"]
+    }
+  ]
+}
