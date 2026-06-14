@@ -266,6 +266,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-14T14:06:35Z",
       "note": "Scheduled check — 403 on direct fetch, no price in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-13). No change detected."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-14T14:07:03Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
     }
   ]
 }
