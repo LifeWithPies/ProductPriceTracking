@@ -280,7 +280,39 @@
       "in_stock": true,
       "scraped_at": "2026-06-14T14:07:29Z",
       "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
-      "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 27,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:01.736279+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 28,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:06.899647+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 29,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:11.710119+00:00",
+      "raw_payload": "{}"
     }
   ]
 }
