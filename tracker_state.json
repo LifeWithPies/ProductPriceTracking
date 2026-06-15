@@ -367,6 +367,13 @@
         "XXL",
         "XXXL"
       ]
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T14:08:57Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-14). No change detected."
     }
   ]
 }
