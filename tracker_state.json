@@ -374,6 +374,30 @@
       "in_stock": true,
       "scraped_at": "2026-06-15T14:08:57Z",
       "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-14). No change detected."
+    },
+    {
+      "id": 37,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T17:59:31.207976+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 38,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T17:59:36.158601+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 39,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T17:59:43.029470+00:00",
+      "raw_payload": "{}"
     }
   ]
 }
