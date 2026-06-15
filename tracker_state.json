@@ -351,6 +351,22 @@
       "in_stock": false,
       "scraped_at": "2026-06-15T14:30:00Z",
       "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T14:09:55Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
     }
   ]
 }
