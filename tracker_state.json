@@ -87,6 +87,20 @@
         "size": "M"
       },
       "image_url": "https://images.quince.com/1zQTzGJ8TalNXzefjJIiUp/4d46948c9ab3378827841ef1af40d237/M-LKT-19-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
+    },
+    {
+      "id": 7,
+      "url": "https://www.quince.com/men/tech-merino-long-sleeve-baselayer?color=black&size=m",
+      "retailer_type": "generic",
+      "title": "Tech Merino Long Sleeve Baselayer in Black (M)",
+      "currency": "USD",
+      "added_at": "2026-06-17T08:30:00Z",
+      "active": true,
+      "variant": {
+        "color": "black",
+        "size": "M"
+      },
+      "image_url": "https://images.quince.com/60u76RLhkGUZ7wHBJb9xu5/633e713019bf2f43723ab5ad56b3b445/M-LKT-18-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
     }
   ],
   "price_history": [
@@ -571,6 +585,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-17T08:00:00Z",
       "note": "Initial entry — Off White size M confirmed in stock by user. Price to be populated on next scheduled scrape."
+    },
+    {
+      "product_id": 7,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:30:00Z",
+      "note": "Initial entry — Black size M added for tracking. Price and stock to be confirmed on next scheduled scrape."
     }
   ]
 }
