@@ -593,6 +593,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-17T08:30:00Z",
       "note": "Initial entry — Black size M added for tracking. Price and stock to be confirmed on next scheduled scrape."
+    },
+    {
+      "product_id": 5,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:00:00Z",
+      "note": "Initial entry — Black size M confirmed in stock by user. Price to be confirmed on next CI scrape."
     }
   ]
 }
