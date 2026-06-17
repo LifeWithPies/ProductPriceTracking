@@ -108,7 +108,7 @@ def main():
     state = load_state()
     ph = state["price_history"]
     cards = [build_card(p, get_latest(ph, p["id"]), price_change_pct(ph, p["id"]), IMG_B64.get(p["id"]))
-             for p in state["products"]]
+             for p in state["products"] if p.get("active", True)]
     ts = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     n = len(cards)
     html = f"""<!DOCTYPE html>
