@@ -29,8 +29,9 @@ Track prices for specific products (Quince, Tecovas) via web scraping, store his
 | 5 | Tech Merino Short Sleeve Tee in Black (M) | quince.com/men/tech-merino-short-sleeve-tee?color=black&size=m | ✓ |
 | 6 | Tech Merino Short Sleeve Tee in Off White (M) | quince.com/men/tech-merino-short-sleeve-tee?color=off-white&size=m | ✓ |
 | 7 | Tech Merino Long Sleeve Baselayer in Black (M) | quince.com/men/tech-merino-long-sleeve-baselayer?color=black&size=m | ✓ |
+| 8 | Ekster Wallet Pro (Smiley x Ekster) | ekster.com/products/ekster-wallet-pro?variant=41919560843327 | ✓ |
 
-**Next ID to use: 8**
+**Next ID to use: 9**
 
 Always keep this table in sync when adding or deactivating products.
 
