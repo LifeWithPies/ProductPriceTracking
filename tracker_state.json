@@ -527,6 +527,13 @@
       "in_stock": false,
       "scraped_at": "2026-06-17T14:06:53Z",
       "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T14:08:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-15). No change detected."
     }
   ]
 }
