@@ -102,6 +102,16 @@
         "size": "M"
       },
       "image_url": "https://images.quince.com/60u76RLhkGUZ7wHBJb9xu5/633e713019bf2f43723ab5ad56b3b445/M-LKT-18-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
+    },
+    {
+      "id": 8,
+      "title": "Ekster Wallet Pro (Smiley x Ekster)",
+      "url": "https://www.ekster.com/products/ekster-wallet-pro?variant=41919560843327",
+      "active": true,
+      "variant": {
+        "edition": "Smiley x Ekster"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/1451/0712/files/Wallet_Pro_Smiley_-_Infograph_01_739df060-0933-431a-b50e-cfebdbf6446d_400x.png"
     }
   ],
   "price_history": [
@@ -648,6 +658,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-17T16:40:41.763501+00:00",
       "raw_payload": "{}"
+    },
+    {
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T12:00:00Z",
+      "note": "Initial entry \u2014 Smiley x Ekster edition at $129. Stock status to be confirmed on next CI run."
     }
   ]
 }
