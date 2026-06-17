@@ -27,7 +27,7 @@ Track prices for specific products (Quince, Tecovas) via web scraping, store his
 
 ## Claude Behavior
 - Never hardcode URLs in new code — read from `tracker_state.json`
-- Always regenerate dashboard after a price write
+- Always regenerate dashboard after ANY change to tracker_state.json: run `python3 gen_dashboard4.py && cp dashboard.html index.html` then commit and push dashboard.html + index.html alongside the state change
 - Keep DB writes idempotent (upsert by product + date)
 - Lint with `ruff check . && ruff format .` before committing
 
