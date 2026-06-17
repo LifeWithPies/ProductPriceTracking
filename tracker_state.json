@@ -63,14 +63,15 @@
     },
     {
       "id": 5,
-      "url": "https://www.quince.com/men/tech-merino-short-sleeve-tee?color=black",
+      "url": "https://www.quince.com/men/tech-merino-short-sleeve-tee?color=black&size=m",
       "retailer_type": "generic",
-      "title": "Tech Merino Short Sleeve Tee in Black",
+      "title": "Tech Merino Short Sleeve Tee in Black (M)",
       "currency": "USD",
       "added_at": "2026-06-17T07:26:45Z",
       "active": true,
       "variant": {
-        "color": "black"
+        "color": "black",
+        "size": "M"
       },
       "image_url": "https://images.quince.com/1zQTzGJ8TalNXzefjJIiUp/4d46948c9ab3378827841ef1af40d237/M-LKT-19-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
     },
