@@ -253,6 +253,75 @@ def scrape_generic_http(url: str, variant_info: dict = None) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Shopify variant API scraper
+# ---------------------------------------------------------------------------
+
+
+def scrape_shopify_variant(url: str, variant_info: dict | None = None) -> dict:
+    """
+    Shopify /products/<handle>.json scraper for variant-specific price + stock.
+    No auth required. Stock logic:
+      inventory_management=shopify + inventory_policy=deny + qty<=0 → OOS
+      inventory_management=None → always available (unmanaged)
+      inventory_policy=continue → always purchasable regardless of qty
+    """
+    import httpx
+    from urllib.parse import parse_qs
+
+    parsed = urlparse(url)
+    qs = parse_qs(parsed.query)
+    variant_id_str = (qs.get("variant") or [""])[0]
+    if not variant_id_str and variant_info:
+        variant_id_str = str(variant_info.get("variant_id", ""))
+    variant_id = int(variant_id_str) if variant_id_str else None
+
+    handle = parsed.path.rstrip("/").split("/")[-1]
+    api_url = f"{parsed.scheme}://{parsed.netloc}/products/{handle}.json"
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/125.0.0.0 Safari/537.36"
+        )
+    }
+    r = httpx.get(api_url, headers=headers, follow_redirects=True, timeout=30)
+    r.raise_for_status()
+    product = r.json()["product"]
+    variants = product["variants"]
+
+    variant = next((v for v in variants if v["id"] == variant_id), None) if variant_id else variants[0]
+    if not variant:
+        raise ValueError(f"Variant {variant_id} not found at {api_url}")
+
+    price = float(variant["price"]) if variant.get("price") else None
+    mgmt = variant.get("inventory_management")
+    policy = variant.get("inventory_policy", "deny")
+    qty = variant.get("inventory_quantity") or 0
+
+    if mgmt is None:
+        in_stock = True  # unmanaged inventory = always available
+    elif policy == "continue":
+        in_stock = True  # Shopify "oversell" setting — always purchasable
+    else:
+        in_stock = qty > 0
+
+    return {
+        "title": product.get("title", ""),
+        "price": price,
+        "currency": "USD",
+        "image_url": None,
+        "in_stock": in_stock,
+        "raw": {
+            "variant_id": variant_id,
+            "inventory_quantity": qty,
+            "inventory_policy": policy,
+            "inventory_management": mgmt,
+        },
+    }
+
+
+# ---------------------------------------------------------------------------
 # Generic scraper entry point
 # ---------------------------------------------------------------------------
 
@@ -269,7 +338,11 @@ def scrape(url: str, retailer_type: str, variant_info: dict | None = None) -> di
             target_width=variant_info.get("width", "D-Average"),
         )
 
-    # Generic HTTP — covers Quince, Shopify, and most non-JS-gated stores
+    # Shopify variant URL — use the products API for accurate per-variant stock
+    if "ekster" in host or retailer_type == "shopify_variant":
+        return scrape_shopify_variant(url, variant_info)
+
+    # Generic HTTP — covers Quince and most non-JS-gated stores
     if retailer_type in ("shopify", "generic") or "quince" in host:
         return scrape_generic_http(url, variant_info)
 
