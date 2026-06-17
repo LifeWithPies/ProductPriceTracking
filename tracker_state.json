@@ -60,6 +60,18 @@
         "color": "bayberry-olive",
         "note": "Track price drops + alert if both S and M go out of stock"
       }
+    },
+    {
+      "id": 5,
+      "url": "https://www.quince.com/men/tech-merino-short-sleeve-tee?color=black",
+      "retailer_type": "generic",
+      "title": "Tech Merino Short Sleeve Tee in Black",
+      "currency": "USD",
+      "added_at": "2026-06-17T07:26:45Z",
+      "active": true,
+      "variant": {
+        "color": "black"
+      }
     }
   ],
   "price_history": [
