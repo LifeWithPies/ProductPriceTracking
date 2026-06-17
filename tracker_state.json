@@ -73,6 +73,20 @@
         "color": "black"
       },
       "image_url": "https://images.quince.com/1zQTzGJ8TalNXzefjJIiUp/4d46948c9ab3378827841ef1af40d237/M-LKT-19-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
+    },
+    {
+      "id": 6,
+      "url": "https://www.quince.com/men/tech-merino-short-sleeve-tee?color=off-white&size=m",
+      "retailer_type": "generic",
+      "title": "Tech Merino Short Sleeve Tee in Off White (M)",
+      "currency": "USD",
+      "added_at": "2026-06-17T08:00:00Z",
+      "active": true,
+      "variant": {
+        "color": "off-white",
+        "size": "M"
+      },
+      "image_url": "https://images.quince.com/1zQTzGJ8TalNXzefjJIiUp/4d46948c9ab3378827841ef1af40d237/M-LKT-19-OFF-01_EDITED.jpg?fm=webP&q=90&w=1600"
     }
   ],
   "price_history": [
@@ -550,6 +564,13 @@
         "XXL",
         "XXXL"
       ]
+    },
+    {
+      "product_id": 6,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:00:00Z",
+      "note": "Initial entry — Off White size M confirmed in stock by user. Price to be populated on next scheduled scrape."
     }
   ]
 }
