@@ -38,11 +38,18 @@ Always keep this table in sync when adding or deactivating products.
 
 ### CRITICAL — Adding a new product
 When the user pastes a URL and says "add this" or "track this":
-1. Fetch the OG image URL from the product page (httpx + BeautifulSoup, use the venv)
-2. Add the product entry to `tracker_state.json` (next available ID, `active: true`, `image_url` set)
+1. **Fetch the color-variant-specific image** (NOT og:image — it is not color-specific):
+   - Load the product URL with httpx + BeautifulSoup (use the venv)
+   - Parse `<script id="__NEXT_DATA__" type="application/json">` → `props.pageProps.pageData.context.pageDataJson.product.images`
+   - Each entry has `options[0].values[0]` = color name and `image.url` = `//images.ctfassets.net/...`
+   - Find the entry where the color matches the requested color (case-insensitive)
+   - Prepend `https:` to the URL, append `?fm=jpg&q=75&w=400`, download with httpx
+   - Base64-encode and add as a new `_IMG_<descriptive_name>` variable in `gen_dashboard4.py`
+   - Add the new product ID → variable mapping to the `IMG_B64` dict
+2. Add the product entry to `tracker_state.json` (next available ID, `active: true`, `image_url` set to the ctfassets URL)
 3. Add an initial `price_history` entry (`in_stock: true`, `price: null`, note that price will be confirmed on next CI run)
 4. **Immediately** run `python3 gen_dashboard4.py && cp dashboard.html index.html`
-5. Commit all three files (`tracker_state.json`, `dashboard.html`, `index.html`) and push to `main`
+5. Commit all four files (`gen_dashboard4.py`, `tracker_state.json`, `dashboard.html`, `index.html`) and push to `main`
 6. Update the Tracked Products table above with the new entry and bump the "Next ID" counter
 
 Do all of this in one shot — the dashboard must reflect the new product before reporting back.
