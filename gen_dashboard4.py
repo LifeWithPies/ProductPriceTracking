@@ -31,9 +31,12 @@ def build_card(product, latest, change_pct, b64):
     price    = latest["price"] if latest else None
     in_stock = latest.get("in_stock", False) if latest else False
     scraped  = latest["scraped_at"][:10] if latest else "—"
-    data_uri = f"data:image/jpeg;base64,{b64}" if b64 else None
-    img_html = (f'<img src="{data_uri}" alt="{title}" class="product-img">'
-                if data_uri else '<div class="img-placeholder">No Image</div>')
+    if b64:
+        img_src = f"data:image/jpeg;base64,{b64}"
+    else:
+        img_src = product.get("image_url") or (latest.get("image_url") if latest else None)
+    img_html = (f'<img src="{img_src}" alt="{title}" class="product-img">'
+                if img_src else '<div class="img-placeholder">No Image</div>')
     stock_badge = ('<span class="badge badge-out">Out of Stock</span>'
                    if not in_stock else '<span class="badge badge-in">In Stock</span>')
     chg_html = ""
