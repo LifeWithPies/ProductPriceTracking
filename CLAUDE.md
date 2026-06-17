@@ -25,7 +25,7 @@ Track prices for specific products (Quince, Tecovas) via web scraping, store his
 | 1 | The Monterrey Men's Loafer - Granite Suede (7.5 D) | tecovas.com/products/the-monterrey?color=granite-suede | ✓ |
 | 2 | Italian Leather Mule Slip-On in Sand (8) | quince.com/...mens-italian-leather-mule-slip-on | ✗ inactive |
 | 3 | 100% Organic Cotton Mesh-Stitch Polo in Bayberry Olive | quince.com/...mens-mesh-stitch-organic-cotton-button-through-polo | ✓ |
-| 4 | Italian Leather RFID Card Holder in Black | quince.com/...mens-italian-leather-rfid-card-holder | ✓ |
+| 4 | Italian Leather RFID Card Holder in Black | quince.com/...mens-italian-leather-rfid-card-holder | ✗ inactive |
 | 5 | Tech Merino Short Sleeve Tee in Black (M) | quince.com/men/tech-merino-short-sleeve-tee?color=black&size=m | ✓ |
 | 6 | Tech Merino Short Sleeve Tee in Off White (M) | quince.com/men/tech-merino-short-sleeve-tee?color=off-white&size=m | ✓ |
 | 7 | Tech Merino Long Sleeve Baselayer in Black (M) | quince.com/men/tech-merino-long-sleeve-baselayer?color=black&size=m | ✓ |
