@@ -33,7 +33,6 @@ jobs:
       - name: Run price check
         run: python price_check_gh.py
         env:
-          RAINFOREST_API_KEY: ${{ secrets.RAINFOREST_API_KEY }}
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL }}
           SMTP_HOST:          smtp.gmail.com

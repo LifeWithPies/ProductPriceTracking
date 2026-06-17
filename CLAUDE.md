@@ -30,3 +30,10 @@ Track prices for specific products (Quince, Tecovas) via web scraping, store his
 - Always regenerate dashboard after a price write
 - Keep DB writes idempotent (upsert by product + date)
 - Lint with `ruff check . && ruff format .` before committing
+
+## Git Workflow — Direct Push to Main
+**This repo uses direct commits to `main` — no PRs.**
+- Never create a feature branch or open a pull request for this repo
+- Commit and push directly to `main` after every change
+- This applies to all changes: adding products, config tweaks, code fixes, dashboard updates
+- Trigger phrases like "add this product", "stop tracking X", "push it", "ship it" all mean: commit + `git push origin main` immediately
