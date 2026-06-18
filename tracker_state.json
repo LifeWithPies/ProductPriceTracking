@@ -13,7 +13,8 @@
         "size": "7.5",
         "width": "D-Average",
         "color": "granite-suede"
-      }
+      },
+      "last_price": 185.0
     },
     {
       "id": 2,
@@ -111,7 +112,8 @@
       "variant": {
         "edition": "Smiley x Ekster"
       },
-      "image_url": "https://cdn.shopify.com/s/files/1/1451/0712/files/Wallet_Pro_Smiley_-_Infograph_01_739df060-0933-431a-b50e-cfebdbf6446d_400x.png"
+      "image_url": "https://cdn.shopify.com/s/files/1/1451/0712/files/Wallet_Pro_Smiley_-_Infograph_01_739df060-0933-431a-b50e-cfebdbf6446d_400x.png",
+      "last_price": 129.0
     }
   ],
   "price_history": [
@@ -665,6 +667,54 @@
       "in_stock": false,
       "scraped_at": "2026-06-17T12:00:00Z",
       "note": "Initial entry — Smiley x Ekster edition at $129. Stock status to be confirmed on next CI run. — CORRECTED: variant is out of stock (inventory_quantity=-1, policy=deny)"
+    },
+    {
+      "id": 66,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:57:59.431607+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 67,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:04.309277+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 68,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:10.967330+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 69,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:16.338132+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 70,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:22.639238+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 71,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:28.257421+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
     }
   ]
 }
