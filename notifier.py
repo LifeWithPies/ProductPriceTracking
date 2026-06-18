@@ -1,4 +1,5 @@
 """Email notification for price drops and back-in-stock alerts."""
+
 import os
 import smtplib
 import json
@@ -8,11 +9,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SMTP_HOST     = os.getenv("SMTP_HOST", "smtp.gmail.com")
-SMTP_PORT     = int(os.getenv("SMTP_PORT", 465))
-SMTP_USER     = os.getenv("SMTP_USER", "")
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", 465))
+SMTP_USER = os.getenv("SMTP_USER", "")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
-NOTIFY_EMAIL  = os.getenv("NOTIFY_EMAIL", "krovvidiprashant@gmail.com")
+NOTIFY_EMAIL = os.getenv("NOTIFY_EMAIL", "krovvidiprashant@gmail.com")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
 
@@ -20,6 +21,7 @@ def _claude_analysis(title, url, history, prev_price, new_price, currency) -> st
     """Call claude-haiku-4-5 for buy/wait recommendation."""
     try:
         import anthropic
+
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         pct = round((prev_price - new_price) / prev_price * 100, 1)
         prompt = f"""Product: {title}
@@ -36,7 +38,7 @@ lower before, and overall trend direction."""
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=200,
-            messages=[{"role": "user", "content": prompt}]
+            messages=[{"role": "user", "content": prompt}],
         )
         return msg.content[0].text
     except Exception as e:
@@ -46,6 +48,7 @@ lower before, and overall trend direction."""
 def _send_email(subject: str, body: str):
     if not SMTP_USER or not SMTP_PASSWORD:
         import sys
+
         print(
             f"[notifier] ERROR: SMTP_USER / SMTP_PASSWORD secrets not set in GitHub.\n"
             f"  Add them at: Settings → Secrets and variables → Actions\n"
@@ -56,8 +59,8 @@ def _send_email(subject: str, body: str):
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"]    = SMTP_USER
-    msg["To"]      = NOTIFY_EMAIL
+    msg["From"] = SMTP_USER
+    msg["To"] = NOTIFY_EMAIL
     msg.attach(MIMEText(body, "plain"))
 
     with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) as s:
@@ -66,19 +69,23 @@ def _send_email(subject: str, body: str):
     print(f"[notifier] Email sent: {subject}")
 
 
-def notify_price_drop(product: dict, prev_price: float, new_price: float, history: list):
+def notify_price_drop(
+    product: dict, prev_price: float, new_price: float, history: list
+):
     currency = product.get("currency", "USD")
     pct = round((prev_price - new_price) / prev_price * 100, 1)
     analysis = _claude_analysis(
-        product["title"], product["url"], history,
-        prev_price, new_price, currency
+        product["title"], product["url"], history, prev_price, new_price, currency
     )
-    subject = f"Price Drop: {product['title']} — now {currency} {new_price} ({pct}% off)"
+    variant = product.get("variant") or product.get("variant_info") or ""
+    subject = (
+        f"Price Drop: {product['title']} — now {currency} {new_price} ({pct}% off)"
+    )
     body = f"""Price drop detected!
 
-Product : {product['title']}
-URL     : {product['url']}
-Variant : {product.get('variant_info', '')}
+Product : {product["title"]}
+URL     : {product["url"]}
+Variant : {variant}
 
 Previous price : {currency} {prev_price}
 New price      : {currency} {new_price}
@@ -91,15 +98,16 @@ Drop           : {pct}%
 
 
 def notify_back_in_stock(product: dict):
-    variant = product.get("variant_info", "")
-    subject = f"Back in Stock: {product['title']} {variant}"
+    variant = product.get("variant") or product.get("variant_info") or ""
+    price = product.get("last_price", "N/A")
+    subject = f"Back in Stock: {product['title']}"
     body = f"""Great news — the item you're tracking is back in stock!
 
-Product : {product['title']}
-URL     : {product['url']}
+Product : {product["title"]}
+URL     : {product["url"]}
 Variant : {variant}
 
-Current price: {product.get('currency','USD')} {product.get('last_price','N/A')}
+Current price: {product.get("currency", "USD")} {price}
 
 Check it out before it sells out again.
 """
