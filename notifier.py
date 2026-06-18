@@ -45,7 +45,13 @@ lower before, and overall trend direction."""
 
 def _send_email(subject: str, body: str):
     if not SMTP_USER or not SMTP_PASSWORD:
-        print(f"[notifier] SMTP not configured. Would send:\nSubject: {subject}\n{body}")
+        import sys
+        print(
+            f"[notifier] ERROR: SMTP_USER / SMTP_PASSWORD secrets not set in GitHub.\n"
+            f"  Add them at: Settings → Secrets and variables → Actions\n"
+            f"  Would have sent — Subject: {subject}",
+            file=sys.stderr,
+        )
         return
 
     msg = MIMEMultipart("alternative")

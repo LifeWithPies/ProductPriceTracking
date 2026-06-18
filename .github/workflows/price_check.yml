@@ -2,8 +2,10 @@ name: Price Check
 
 on:
   schedule:
-    # Runs at 01:00 and 13:00 UTC  (6:30 AM and 6:30 PM IST)
-    - cron: '0 1,13 * * *'
+    # 23:30 UTC = 5:00 AM IST (morning check)
+    - cron: '30 23 * * *'
+    # 13:00 UTC = 6:30 PM IST (evening check)
+    - cron: '0 13 * * *'
   workflow_dispatch:   # also lets you click "Run workflow" in the GitHub UI
 
 permissions:
@@ -35,7 +37,7 @@ jobs:
         env:
           RAINFOREST_API_KEY: ${{ secrets.RAINFOREST_API_KEY }}
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
-          NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL }}
+          NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL || 'krovvidiprashant@gmail.com' }}
           SMTP_HOST:          smtp.gmail.com
           SMTP_PORT:          465
           SMTP_USER:          ${{ secrets.SMTP_USER }}
