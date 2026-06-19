@@ -743,7 +743,63 @@
       "in_stock": true,
       "scraped_at": "2026-06-18T14:05:42Z",
       "note": "Scheduled check — Bayberry Olive: Low stock across all sizes. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
-      "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 76,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:34.551820+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 77,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:42.363127+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 78,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:49.544837+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 79,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:54.794687+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 80,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:19:01.515245+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 81,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:19:04.976575+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
     }
   ]
 }
