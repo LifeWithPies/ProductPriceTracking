@@ -814,6 +814,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-19T14:04:42Z",
       "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on direct fetch); no sold-out signal found for D-Average."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-18). No change detected."
     }
   ]
 }
