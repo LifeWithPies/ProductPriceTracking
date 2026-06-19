@@ -807,6 +807,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-19T14:03:56Z",
       "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:04:42Z",
+      "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on direct fetch); no sold-out signal found for D-Average."
     }
   ]
 }
