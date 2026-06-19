@@ -821,6 +821,14 @@
       "in_stock": true,
       "scraped_at": "2026-06-19T14:00:00Z",
       "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-18). No change detected."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:05:48Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]
     }
   ]
 }
