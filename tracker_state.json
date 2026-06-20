@@ -954,6 +954,22 @@
       "in_stock": true,
       "scraped_at": "2026-06-20T14:05:12Z",
       "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-20T01:36:44Z). Source: web search (403 on direct fetch); no sold-out signal, price confirmed $185."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T14:05:59Z",
+      "note": "Scheduled check — Bayberry Olive: S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
     }
   ]
 }
