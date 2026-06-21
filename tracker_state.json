@@ -1073,6 +1073,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-21T14:04:12Z",
       "note": "Scheduled check — Size 8 Sand: In Stock (low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; web search confirms 'Add to Bag' available at $58.00 (in stock). No change vs previous ($58.00, in stock since 2026-06-20). No email sent."
     }
   ]
 }
