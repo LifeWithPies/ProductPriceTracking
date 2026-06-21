@@ -1080,6 +1080,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-21T14:00:00Z",
       "note": "Scheduled check — 403 on direct fetch; web search confirms 'Add to Bag' available at $58.00 (in stock). No change vs previous ($58.00, in stock since 2026-06-20). No email sent."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T14:05:59Z",
+      "note": "Scheduled check — size 7.5 D-Average: Carrying forward last Playwright-confirmed state (in_stock=true at $185.00, from 2026-06-21T01:59:29Z). Direct fetch: 403. Web search snippets suggest 'sizes sold out' on the product page, but this is ambiguous — may apply to other sizes, not specifically 7.5 D-Average. Last CI Playwright check showed aria-label 'Select the D-Average option' (no Out of stock suffix). No confirmed change. Monitor closely on next CI run."
     }
   ]
 }
