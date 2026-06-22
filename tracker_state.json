@@ -117,137 +117,1166 @@
     }
   ],
   "price_history": [
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-07T05:28:00Z", "note": "Initial scrape — size 7.5 D-Average: Out of Stock. Listed price: $185."},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-07T06:00:00Z", "note": "Initial scrape — size 8 Sand: In Stock at $95.00 (54% off $190 retail)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-07T06:20:00Z", "note": "Initial scrape — In Stock at $58.00 (55% off $129 retail). No size variants."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-07T06:10:00Z", "note": "Initial scrape — S and M both in stock at $44.90 (54% off $98 retail).", "sizes_in_stock": ["XS", "S", "M", "L", "XL"]},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-10T14:22:06Z", "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock)."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-10T14:22:33Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS)."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-10T14:23:23Z", "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock).", "sizes_in_stock": ["XS", "S", "M", "L", "XL"]},
-    {"product_id": 2, "price": null, "in_stock": false, "scraped_at": "2026-06-10T14:23:52Z", "note": "Scheduled check — Size 8 Sand: Out of Stock. 'Add to Bag' replaced by 'Join Waitlist' + 'Sold out' badge. Was in stock at $95.00 on previous check. OUT OF STOCK transition."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-11T14:25:00Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock (aria-label 'Select the D-Average option (Out of stock)'). Listed price: $185. EE-Wide available. No change from previous (still OOS)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-11T14:11:32Z", "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock). No size variants."},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-11T14:12:15Z", "note": "Scheduled check — Size 8 Sand: BACK IN STOCK at $95.00 (50% off $190 retail). 'Add to Bag' enabled, size 8 selectable, no sold-out badge. Previous check (2026-06-10) was Out of Stock. BACK IN STOCK transition."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-11T14:13:39Z", "note": "Scheduled check — XS/S/M/L/XL all in stock at $44.90 (54% off $98 retail). S and M both in stock. No change vs previous ($44.90, in stock).", "sizes_in_stock": ["XS", "S", "M", "L", "XL"]},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-13T14:02:07Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch)."},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-13T14:04:31Z", "note": "Scheduled check — Size 8 Sand: In Stock (Low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-13T14:06:51Z", "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-13T14:06:12Z", "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock). Source: web search snippet (403 on direct fetch)."},
-    {"id": 17, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-13T15:03:18.190376+00:00", "raw_payload": "{}"},
-    {"id": 18, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-13T15:03:21.546882+00:00", "raw_payload": "{}"},
-    {"id": 19, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-13T15:03:28.276283+00:00", "raw_payload": "{}"},
-    {"id": 20, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-14T05:52:00.035510+00:00", "raw_payload": "{}"},
-    {"id": 21, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-14T05:52:04.583281+00:00", "raw_payload": "{}"},
-    {"id": 22, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-14T05:52:07.974018+00:00", "raw_payload": "{}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-14T14:05:36Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-14T14:06:35Z", "note": "Scheduled check — 403 on direct fetch, no price in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-13). No change detected."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-14T14:07:03Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-14T14:07:29Z", "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 27, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-14T15:09:01.736279+00:00", "raw_payload": "{}"},
-    {"id": 28, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-14T15:09:06.899647+00:00", "raw_payload": "{}"},
-    {"id": 29, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-14T15:09:11.710119+00:00", "raw_payload": "{}"},
-    {"id": 30, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-15T06:28:45.083732+00:00", "raw_payload": "{}"},
-    {"id": 31, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-15T06:28:51.073502+00:00", "raw_payload": "{}"},
-    {"id": 32, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-15T06:28:56.187321+00:00", "raw_payload": "{}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-15T14:05:33Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-15T14:30:00Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-15T14:09:55Z", "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-15T14:08:57Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-14). No change detected."},
-    {"id": 37, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-15T17:59:31.207976+00:00", "raw_payload": "{}"},
-    {"id": 38, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-15T17:59:36.158601+00:00", "raw_payload": "{}"},
-    {"id": 39, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-15T06:28:56.187321+00:00", "raw_payload": "{}"},
-    {"id": 40, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-16T06:36:36.727605+00:00", "raw_payload": "{}"},
-    {"id": 41, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-16T06:36:41.559288+00:00", "raw_payload": "{}"},
-    {"id": 42, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-16T06:36:47.856697+00:00", "raw_payload": "{}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-16T14:10:00Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-16T14:07:12Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); search results show 'sold out' indicator / 'select size to get notified'."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-16T14:30:00Z", "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Cannot confirm per-size S/M availability (403 on direct fetch; web search shows 'low stock' across available sizes but no per-size breakdown). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 46, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:15:41.239062+00:00", "raw_payload": "{}"},
-    {"id": 47, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:15:47.053011+00:00", "raw_payload": "{}"},
-    {"id": 48, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:15:53.455859+00:00", "raw_payload": "{}"},
-    {"id": 49, "product_id": 2, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:54:19.444060+00:00", "raw_payload": "{}"},
-    {"id": 50, "product_id": 4, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:54:26.595985+00:00", "raw_payload": "{}"},
-    {"id": 51, "product_id": 3, "price": null, "in_stock": true, "scraped_at": "2026-06-17T06:54:33.857376+00:00", "raw_payload": "{}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-17T14:05:59Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-17T14:06:53Z", "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-17T14:08:00Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-15). No change detected."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-17T14:30:00Z", "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Cannot confirm per-size S/M availability (403 on direct fetch; web search shows product still listed with low stock, no sold-out signals for S or M). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"product_id": 6, "price": null, "in_stock": true, "scraped_at": "2026-06-17T08:00:00Z", "note": "Initial entry — Off White size M confirmed in stock by user. Price to be populated on next scheduled scrape."},
-    {"product_id": 7, "price": null, "in_stock": true, "scraped_at": "2026-06-17T08:30:00Z", "note": "Initial entry — Black size M added for tracking. Price and stock to be confirmed on next scheduled scrape."},
-    {"product_id": 5, "price": null, "in_stock": true, "scraped_at": "2026-06-17T08:00:00Z", "note": "Initial entry — Black size M confirmed in stock by user. Price to be confirmed on next CI scrape."},
-    {"id": 59, "product_id": 1, "price": null, "in_stock": false, "scraped_at": "2026-06-17T16:40:14.207156+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option (Out of stock)\"}"},
-    {"id": 60, "product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-17T16:40:18.697494+00:00", "raw_payload": "{}"},
-    {"id": 61, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-17T16:40:23.463123+00:00", "raw_payload": "{}"},
-    {"id": 62, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-17T16:40:28.472106+00:00", "raw_payload": "{}"},
-    {"id": 63, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-17T16:40:35.225564+00:00", "raw_payload": "{}"},
-    {"id": 64, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-17T16:40:41.763501+00:00", "raw_payload": "{}"},
-    {"product_id": 8, "price": 129.0, "in_stock": false, "scraped_at": "2026-06-17T12:00:00Z", "note": "Initial entry — Smiley x Ekster edition at $129. Stock status to be confirmed on next CI run. — CORRECTED: variant is out of stock (inventory_quantity=-1, policy=deny)"},
-    {"id": 66, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-18T05:57:59.431607+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 67, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-18T05:58:04.309277+00:00", "raw_payload": "{}"},
-    {"id": 68, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-18T05:58:10.967330+00:00", "raw_payload": "{}"},
-    {"id": 69, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-18T05:58:16.338132+00:00", "raw_payload": "{}"},
-    {"id": 70, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-18T05:58:22.639388+00:00", "raw_payload": "{}"},
-    {"id": 71, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-18T05:58:28.257421+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-18T14:10:00Z", "note": "Scheduled check — Size 8 Sand: In Stock (low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-18T14:04:56Z", "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous (in stock at $185.00 since 2026-06-18T05:57:59Z). Source: web search (403 on direct fetch)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-18T14:00:00Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-17). No change detected."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-18T14:05:42Z", "note": "Scheduled check — Bayberry Olive: Low stock across all sizes. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 76, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-19T02:18:34.551820+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 77, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-19T02:18:42.363127+00:00", "raw_payload": "{}"},
-    {"id": 78, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-19T02:18:49.544837+00:00", "raw_payload": "{}"},
-    {"id": 79, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-19T02:18:54.794687+00:00", "raw_payload": "{}"},
-    {"id": 80, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-19T02:19:01.515245+00:00", "raw_payload": "{}"},
-    {"id": 81, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-19T02:19:04.976575+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-19T14:03:56Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-19T14:04:42Z", "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on direct fetch); no sold-out signal found for D-Average."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-19T14:00:00Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-18). No change detected."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-19T14:05:48Z", "note": "Scheduled check — Bayberry Olive: Low stock indicator. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 86, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-19T15:58:42.895419+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 87, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-19T15:58:48.842689+00:00", "raw_payload": "{}"},
-    {"id": 88, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-19T15:58:55.782426+00:00", "raw_payload": "{}"},
-    {"id": 89, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-19T15:59:01.306468+00:00", "raw_payload": "{}"},
-    {"id": 90, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-19T15:59:08.047421+00:00", "raw_payload": "{}"},
-    {"id": 91, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-19T15:59:11.605408+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"id": 92, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-20T01:36:44.181074+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 93, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-20T01:36:50.326204+00:00", "raw_payload": "{}"},
-    {"id": 94, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-20T01:36:54.666826+00:00", "raw_payload": "{}"},
-    {"id": 95, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-20T01:37:00.745224+00:00", "raw_payload": "{}"},
-    {"id": 96, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-20T01:37:04.778630+00:00", "raw_payload": "{}"},
-    {"id": 97, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-20T01:37:08.715442+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-20T14:04:18Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-20T14:05:13Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-19). No change detected."},
-    {"product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-20T14:05:12Z", "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-20T01:36:44Z). Source: web search (403 on direct fetch); no sold-out signal, price confirmed $185."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-20T14:05:59Z", "note": "Scheduled check — Bayberry Olive: S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 102, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-20T15:02:12.391920+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 103, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-20T15:02:18.900190+00:00", "raw_payload": "{}"},
-    {"id": 104, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-20T15:02:22.547576+00:00", "raw_payload": "{}"},
-    {"id": 105, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-20T15:02:28.930582+00:00", "raw_payload": "{}"},
-    {"id": 106, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-20T15:02:34.543484+00:00", "raw_payload": "{}"},
-    {"id": 107, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-20T15:02:37.970727+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"id": 108, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-21T01:59:29.264071+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 109, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-21T01:59:35.620366+00:00", "raw_payload": "{}"},
-    {"id": 110, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-21T01:59:40.067864+00:00", "raw_payload": "{}"},
-    {"id": 111, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-21T01:59:45.595529+00:00", "raw_payload": "{}"},
-    {"id": 112, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-21T01:59:52.684550+00:00", "raw_payload": "{}"},
-    {"id": 113, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-21T01:59:58.270065+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-21T14:04:12Z", "note": "Scheduled check — Size 8 Sand: In Stock (low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-21T14:00:00Z", "note": "Scheduled check — 403 on direct fetch; web search confirms 'Add to Bag' available at $58.00 (in stock). No change vs previous ($58.00, in stock since 2026-06-20). No email sent."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-21T14:06:05Z", "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Size S confirmed available (ADD TO BAG); no sold-out signal for S or M. No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]},
-    {"id": 117, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-21T15:09:50.224234+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 118, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-21T15:09:56.487586+00:00", "raw_payload": "{}"},
-    {"id": 119, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-21T15:10:00.272184+00:00", "raw_payload": "{}"},
-    {"id": 120, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-21T15:10:04.654169+00:00", "raw_payload": "{}"},
-    {"id": 121, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-21T15:10:09.904598+00:00", "raw_payload": "{}"},
-    {"id": 122, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-21T15:10:15.427562+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"id": 123, "product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-22T02:02:50.851916+00:00", "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"},
-    {"id": 124, "product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-22T02:02:54.341903+00:00", "raw_payload": "{}"},
-    {"id": 125, "product_id": 5, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-22T02:03:00.461456+00:00", "raw_payload": "{}"},
-    {"id": 126, "product_id": 6, "price": 42.0, "in_stock": true, "scraped_at": "2026-06-22T02:03:06.539364+00:00", "raw_payload": "{}"},
-    {"id": 127, "product_id": 7, "price": 46.0, "in_stock": true, "scraped_at": "2026-06-22T02:03:12.916648+00:00", "raw_payload": "{}"},
-    {"id": 128, "product_id": 8, "price": 129.0, "in_stock": true, "scraped_at": "2026-06-22T02:03:20.161953+00:00", "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"},
-    {"product_id": 2, "price": 95.0, "in_stock": true, "scraped_at": "2026-06-22T14:04:45Z", "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."},
-    {"product_id": 1, "price": 185.0, "in_stock": true, "scraped_at": "2026-06-22T14:06:04Z", "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on all direct fetches); no sold-out signal for D-Average, price confirmed $185. No email sent."},
-    {"product_id": 4, "price": 58.0, "in_stock": true, "scraped_at": "2026-06-22T14:00:00Z", "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-21). No change detected."},
-    {"product_id": 3, "price": 44.9, "in_stock": true, "scraped_at": "2026-06-22T14:30:00Z", "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). No sold-out signal for S or M in web search; product still actively listed. No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).", "sizes_in_stock": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"]}
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-07T05:28:00Z",
+      "note": "Initial scrape — size 7.5 D-Average: Out of Stock. Listed price: $185."
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:00:00Z",
+      "note": "Initial scrape — size 8 Sand: In Stock at $95.00 (54% off $190 retail)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:20:00Z",
+      "note": "Initial scrape — In Stock at $58.00 (55% off $129 retail). No size variants."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-07T06:10:00Z",
+      "note": "Initial scrape — S and M both in stock at $44.90 (54% off $98 retail).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-10T14:22:06Z",
+      "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock)."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-10T14:22:33Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS)."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-10T14:23:23Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "product_id": 2,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-10T14:23:52Z",
+      "note": "Scheduled check — Size 8 Sand: Out of Stock. 'Add to Bag' replaced by 'Join Waitlist' + 'Sold out' badge. Was in stock at $95.00 on previous check. OUT OF STOCK transition."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-11T14:25:00Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock (aria-label 'Select the D-Average option (Out of stock)'). Listed price: $185. EE-Wide available. No change from previous (still OOS)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:11:32Z",
+      "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock). No size variants."
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:12:15Z",
+      "note": "Scheduled check — Size 8 Sand: BACK IN STOCK at $95.00 (50% off $190 retail). 'Add to Bag' enabled, size 8 selectable, no sold-out badge. Previous check (2026-06-10) was Out of Stock. BACK IN STOCK transition."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-11T14:13:39Z",
+      "note": "Scheduled check — XS/S/M/L/XL all in stock at $44.90 (54% off $98 retail). S and M both in stock. No change vs previous ($44.90, in stock).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-13T14:02:07Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T14:04:31Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock (Low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T14:06:51Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T14:06:12Z",
+      "note": "Scheduled check — In Stock at $58.00 (55% off $129 retail). No change vs previous ($58.00, in stock). Source: web search snippet (403 on direct fetch)."
+    },
+    {
+      "id": 17,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T15:03:18.190376+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 18,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T15:03:21.546882+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 19,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-13T15:03:28.276283+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 20,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T05:52:00.035510+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 21,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T05:52:04.583281+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 22,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T05:52:07.974018+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T14:05:36Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T14:06:35Z",
+      "note": "Scheduled check — 403 on direct fetch, no price in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-13). No change detected."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-14T14:07:03Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T14:07:29Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 27,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:01.736279+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 28,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:06.899647+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 29,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-14T15:09:11.710119+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 30,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T06:28:45.083732+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 31,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T06:28:51.073502+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 32,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T06:28:56.187321+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T14:05:33Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-15T14:30:00Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T14:09:55Z",
+      "note": "Scheduled check — S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T14:08:57Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-14). No change detected."
+    },
+    {
+      "id": 37,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T17:59:31.207976+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 38,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T17:59:36.158601+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 39,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-15T06:28:56.187321+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 40,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-16T06:36:36.727605+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 41,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-16T06:36:41.559288+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 42,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-16T06:36:47.856697+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-16T14:10:00Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-16T14:07:12Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); search results show 'sold out' indicator / 'select size to get notified'."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-16T14:30:00Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Cannot confirm per-size S/M availability (403 on direct fetch; web search shows 'low stock' across available sizes but no per-size breakdown). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 46,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:15:41.239062+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 47,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:15:47.053011+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 48,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:15:53.455859+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 49,
+      "product_id": 2,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:54:19.444060+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 50,
+      "product_id": 4,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:54:26.595985+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 51,
+      "product_id": 3,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T06:54:33.857376+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T14:05:59Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-17T14:06:53Z",
+      "note": "Scheduled check — size 7.5 D-Average: Out of Stock. Listed price: $185. No change from previous (still OOS). Source: web search (403 on direct fetch); no restock signal found."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T14:08:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-15). No change detected."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T14:30:00Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Cannot confirm per-size S/M availability (403 on direct fetch; web search shows product still listed with low stock, no sold-out signals for S or M). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "product_id": 6,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:00:00Z",
+      "note": "Initial entry — Off White size M confirmed in stock by user. Price to be populated on next scheduled scrape."
+    },
+    {
+      "product_id": 7,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:30:00Z",
+      "note": "Initial entry — Black size M added for tracking. Price and stock to be confirmed on next scheduled scrape."
+    },
+    {
+      "product_id": 5,
+      "price": null,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T08:00:00Z",
+      "note": "Initial entry — Black size M confirmed in stock by user. Price to be confirmed on next CI scrape."
+    },
+    {
+      "id": 59,
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-06-17T16:40:14.207156+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option (Out of stock)\"}"
+    },
+    {
+      "id": 60,
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T16:40:18.697494+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 61,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T16:40:23.463123+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 62,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T16:40:28.472106+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 63,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T16:40:35.225564+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 64,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-17T16:40:41.763501+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": false,
+      "scraped_at": "2026-06-17T12:00:00Z",
+      "note": "Initial entry — Smiley x Ekster edition at $129. Stock status to be confirmed on next CI run. — CORRECTED: variant is out of stock (inventory_quantity=-1, policy=deny)"
+    },
+    {
+      "id": 66,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:57:59.431607+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 67,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:04.309277+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 68,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:10.967330+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 69,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:16.338132+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 70,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:22.639388+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 71,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T05:58:28.257421+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T14:10:00Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock (low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T14:04:56Z",
+      "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous (in stock at $185.00 since 2026-06-18T05:57:59Z). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-17). No change detected."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-18T14:05:42Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock across all sizes. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 76,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:34.551820+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 77,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:42.363127+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 78,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:49.544837+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 79,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:18:54.794687+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 80,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:19:01.515245+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 81,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T02:19:04.976575+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:03:56Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:04:42Z",
+      "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on direct fetch); no sold-out signal found for D-Average."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-18). No change detected."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T14:05:48Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator. S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 86,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:58:42.895419+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 87,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:58:48.842689+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 88,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:58:55.782426+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 89,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:59:01.306468+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 90,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:59:08.047421+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 91,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-19T15:59:11.605408+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "id": 92,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:36:44.181074+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 93,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:36:50.326204+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 94,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:36:54.666826+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 95,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:37:00.745224+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 96,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:37:04.778630+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 97,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T01:37:08.715442+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T14:04:18Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T14:05:13Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-19). No change detected."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T14:05:12Z",
+      "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-20T01:36:44Z). Source: web search (403 on direct fetch); no sold-out signal, price confirmed $185."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T14:05:59Z",
+      "note": "Scheduled check — Bayberry Olive: S and M both in stock at $44.90 (54% off $98 retail). No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 102,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:12.391920+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 103,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:18.900190+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 104,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:22.547576+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 105,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:28.930582+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 106,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:34.543484+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 107,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-20T15:02:37.970727+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "id": 108,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:29.264071+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 109,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:35.620366+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 110,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:40.067864+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 111,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:45.595529+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 112,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:52.684550+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 113,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T01:59:58.270065+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T14:04:12Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock (low stock indicator) at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; web search confirms 'Add to Bag' available at $58.00 (in stock). No change vs previous ($58.00, in stock since 2026-06-20). No email sent."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T14:06:05Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). Size S confirmed available (ADD TO BAG); no sold-out signal for S or M. No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 117,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:09:50.224234+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 118,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:09:56.487586+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 119,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:10:00.272184+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 120,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:10:04.654169+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 121,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:10:09.904598+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 122,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-21T15:10:15.427562+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "id": 123,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:02:50.851916+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 124,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:02:54.341903+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 125,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:03:00.461456+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 126,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:03:06.539364+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 127,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:03:12.916648+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 128,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T02:03:20.161953+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T14:04:45Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
+    },
+    {
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T14:06:04Z",
+      "note": "Scheduled check — size 7.5 D-Average: In Stock at $185.00. No change vs previous ($185.00, in stock since 2026-06-18). Source: web search (403 on all direct fetches); no sold-out signal for D-Average, price confirmed $185. No email sent."
+    },
+    {
+      "product_id": 4,
+      "price": 58.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T14:00:00Z",
+      "note": "Scheduled check — 403 on direct fetch; no price signal in web search snippets. Carrying forward last confirmed: $58.00, in stock (2026-06-21). No change detected."
+    },
+    {
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T14:30:00Z",
+      "note": "Scheduled check — Bayberry Olive: Low stock indicator visible. Price $44.90 (54% off $98 retail). No sold-out signal for S or M in web search; product still actively listed. No change vs previous ($44.90, in stock). Source: web search (403 on direct fetch).",
+      "sizes_in_stock": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    {
+      "id": 133,
+      "product_id": 1,
+      "price": 185.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:15.539830+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option\"}"
+    },
+    {
+      "id": 134,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:22.647449+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 135,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:27.044299+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 136,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:33.988403+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 137,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:40.469453+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 138,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-22T17:28:47.018957+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    }
   ]
 }
