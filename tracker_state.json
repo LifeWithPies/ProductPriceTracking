@@ -1325,6 +1325,13 @@
       "in_stock": true,
       "scraped_at": "2026-06-23T01:31:53.067197+00:00",
       "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "product_id": 2,
+      "price": 95.0,
+      "in_stock": true,
+      "scraped_at": "2026-06-23T14:05:00Z",
+      "note": "Scheduled check — Size 8 Sand: In Stock at $95.00 (50% off $190 retail). No change vs previous ($95.00, in stock). Source: web search (403 on direct fetch)."
     }
   ]
 }
