@@ -7160,6 +7160,46 @@
       "in_stock": true,
       "scraped_at": "2026-08-24T13:46:15.484331+00:00",
       "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
+    },
+    {
+      "id": 874,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-08-24T23:48:33.223523+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 875,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-08-24T23:48:38.861455+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 876,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-08-24T23:48:44.968625+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 877,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-08-24T23:48:48.596089+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 878,
+      "product_id": 8,
+      "price": 129.0,
+      "in_stock": true,
+      "scraped_at": "2026-08-24T23:48:52.199939+00:00",
+      "raw_payload": "{\"variant_id\": 41919560843327, \"inventory_quantity\": 12, \"inventory_policy\": \"deny\", \"inventory_management\": \"shopify\"}"
     }
   ]
 }
