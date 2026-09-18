@@ -9032,6 +9032,46 @@
       "in_stock": true,
       "scraped_at": "2026-09-18T01:24:23.839308+00:00",
       "raw_payload": "{}"
+    },
+    {
+      "id": 1108,
+      "product_id": 1,
+      "price": null,
+      "in_stock": false,
+      "scraped_at": "2026-09-18T16:53:23.918591+00:00",
+      "raw_payload": "{\"url\": \"https://www.tecovas.com/products/the-monterrey?color=granite-suede\", \"title\": \"The Monterrey Men's Loafer - Granite suede | Tecovas\", \"price_text\": \"Price:\\n\\n$185\", \"size\": \"7.5\", \"width\": \"D-Average\", \"width_aria_label\": \"Select the D-Average option (Out of stock)\"}"
+    },
+    {
+      "id": 1109,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-09-18T16:53:30.769825+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1110,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-09-18T16:53:36.023301+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1111,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-09-18T16:53:41.153779+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1112,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-09-18T16:53:47.862209+00:00",
+      "raw_payload": "{}"
     }
   ]
 }
