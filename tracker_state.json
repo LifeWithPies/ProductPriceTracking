@@ -13816,6 +13816,38 @@
       "in_stock": true,
       "scraped_at": "2026-11-25T05:36:23.443277+00:00",
       "raw_payload": "{}"
+    },
+    {
+      "id": 1706,
+      "product_id": 3,
+      "price": 44.9,
+      "in_stock": true,
+      "scraped_at": "2026-11-25T22:06:35.596176+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1707,
+      "product_id": 5,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-11-25T22:06:42.738824+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1708,
+      "product_id": 6,
+      "price": 42.0,
+      "in_stock": true,
+      "scraped_at": "2026-11-25T22:06:47.261225+00:00",
+      "raw_payload": "{}"
+    },
+    {
+      "id": 1709,
+      "product_id": 7,
+      "price": 46.0,
+      "in_stock": true,
+      "scraped_at": "2026-11-25T22:06:52.723481+00:00",
+      "raw_payload": "{}"
     }
   ]
 }
